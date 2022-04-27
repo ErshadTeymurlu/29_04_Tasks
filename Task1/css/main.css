@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Monstret;
+  src: url("/Task1/fonts/Montserrat-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Monstret;
+}
+.container{
+    margin: 10px 20px 10px 20px;
+}
+.logo {
+  width: calc(30% - 5px);
+  padding: 20px;
+  background-color: #f5efef;
+  border: 1px solid gray;
+  text-align: center;
+  float: left;
+  margin-right: 5px;
+}
+.header-content {
+  width: calc(70% - 5px);
+  padding: 20px;
+  background-color: #f5efef;
+  border: 1px solid gray;
+  text-align: center;
+  float: left;
+  margin-left: 5px;
+}
+.primary-navigation {
+  width: 100%;
+  padding: 20px;
+  float: left;
+  background-color: #f5efef;
+  border: 1px solid gray;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.photo-area {
+  width: calc(50% - 5px);
+  padding: 120px;
+  text-align: center;
+  background-color: #f5efef;
+  border: 1px solid gray;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.photo-messaging-area {
+  width: calc(50% - 5px);
+  padding: 120px;
+  text-align: center;
+  background-color: #f5efef;
+  border: 1px solid gray;
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.secondary-messaging-area1 {
+  width: calc(33.3333333333% - 10px);
+  padding: 100px;
+  text-align: center;
+  background-color: #f5efef;
+  border: 1px solid gray;
+  float: left;
+  margin-right: 10px;
+}
+.secondary-messaging-area2 {
+  width: calc(33.3333333333% - 10px);
+  padding: 100px;
+  text-align: center;
+  background-color: #f5efef;
+  border: 1px solid gray;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.secondary-messaging-area3 {
+  width: calc(33.3333333333% - 20px);
+  padding: 100px;
+  text-align: center;
+  background-color: #f5efef;
+  border: 1px solid gray;
+  float: left;
+  margin-left: 10px;
+}
+.footer-content {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5efef;
+  border: 1px solid gray;
+  margin-top: 10px;
+}
+.clear{
+    clear: both;
+}
